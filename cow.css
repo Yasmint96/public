@@ -1,0 +1,35 @@
+/* 
+web programming 2 - Zefat Academic Collage 
+Ex3 - final project - Remember The Cow
+Submitted to the lecturer: Boaz Miller
+
+Students names : 
+Yasmin Mokhtar 316358944
+Lubna Abo Janb 322394917
+May Hammad 206706004
+*/
+body, input, select, option, button, a {
+	color: #005AB4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+}
+body, h1 {
+	margin: 0;
+	padding: 0;
+}
+#error {
+	color: rgb(180, 89, 89);
+	font-weight: bold;
+}
+.headfoot {
+	background-color: #005AB4;
+	color: white;
+	padding: 0.5em;
+}
+h1 img {
+	float: left;
+	margin-right: 1em;
+}
+#main {
+	margin: 2em;
+}
