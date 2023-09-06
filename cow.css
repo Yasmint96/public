@@ -8,28 +8,94 @@ Yasmin Mokhtar 316358944
 Lubna Abo Janb 322394917
 May Hammad 206706004
 */
-body, input, select, option, button, a {
-	color: #005AB4;
+body {	
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14pt;
+	font-size: 14pt;	
 }
-body, h1 {
-	margin: 0;
-	padding: 0;
+h1,p,body {
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h2{
+	color:#007bff;
 }
 #error {
 	color: rgb(180, 89, 89);
 	font-weight: bold;
 }
-.headfoot {
-	background-color: #005AB4;
-	color: white;
+#headfoot {
 	padding: 0.5em;
-}
-h1 img {
-	float: left;
-	margin-right: 1em;
+	padding: 10px 0;
+    text-align: center;	
+	margin-bottom:  20px;
 }
 #main {
-	margin: 2em;
+	background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin: 20px auto;
+    max-width: 450px;
+    padding: 20px;
+    text-align: center;
+}
+#loginform {
+    margin-top: 20px;
+}
+.form {
+	margin-bottom: 20px;
+}
+ul {
+    padding: 0; 
+    margin: 0; 
+}
+li {
+	list-style-position: inside;
+	margin: 5px 0;
+}
+body {
+	background: linear-gradient(-45deg, #8DC3FF, #00A5FF, #00E0FF, #00FFA5);
+	background-size: 100% 100%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 3px;
+	text-align: center;
+	color: #333;;
+}
+#submitbutton {
+    padding: 10px 10px;
+	width: 40%;
+    border-color: #007bff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;	
+}
+#submitbutton:hover {
+    background-color: #007bff;
+}
+#logo{
+	display: flex;
+	width: 50px;
+	height: 20px;
+	
+	float:right 50rem;
+	
 }
